@@ -20,7 +20,7 @@ public class Hw6_3 {
                 boolean flag = true;  // 一开始假设是质数，记为True
                 // 对2到sqrt(i)之内的质数进行检查，发现不是质数就做标记并且不再接着检查下面的数break
                 System.out.print(i);
-                System.out.print(res);
+                //System.out.print(res.substring(0, res.length() - 1) + "]");
                 System.out.println((int)(Math.sqrt(i)));
                 for(int j = 2; j < (int)(Math.sqrt(i)) + 1; j ++){
                     if (i % j == 0) {   // if i//i ==i/j:
