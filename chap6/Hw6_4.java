@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+// 质因数分解
 public class Hw6_4 {
     public static void main(String[] args) {
         int n1, n2;

@@ -11,7 +11,7 @@ public class Hw5_3 {
         String hexNum = sc.next();
         NumberConversion numberConversion = new NumberConversion();
         int decNum = numberConversion.hexToDecimal(hexNum);
-        System.out.println(hexNum + "用二进制表示为" + decNum);
+        System.out.println(hexNum + "用十进制表示为" + decNum);
     }
 }
 
